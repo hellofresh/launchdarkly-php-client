@@ -10,11 +10,4 @@ interface FeatureRequester {
      * @return FeatureFlag|null The decoded FeatureFlag, or null if missing
      */
     public function get($key);
-
-    /**
-     * Gets all features.
-     *
-     * @return array()|null The decoded FeatureFlags, or null if missing
-     */
-    public function getAll();
 }
